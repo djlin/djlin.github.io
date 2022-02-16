@@ -1,9 +1,71 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "GitHub and Jekyll"
 date:   2022-02-15 19:34:25 -0600
-categories: jekyll update
+categories: jekyll notes
 ---
+
+## My steps to install Jekyll
+
+		brew install rbenv
+		rbenv install 3.0.0
+		rbenv global 3.0.0
+
+* **.zshrc**
+
+		export PATH="$HOME/.gem/ruby/3.0.0/bin:$PATH"
+		eval "$(rbenv init - zsh)"
+
+* **Commands**
+
+		gem install --user-install rails
+		gem install --user-install ffi
+		gem install --user-install bundler jekyll
+
+		jekyll new myblog
+		cd myblog
+		bundle add webrick
+		bundle install
+
+		bundle exec jekyll serve
+
+* [Creating a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+
+1. Create [GitHub ID].github.io repo
+
+		mkdir docs; cd docs
+		jekyll new --skip-bundle .
+
+2. Edit Gemfile and comment out **gem "jekyll"**
+
+3. Add the following (See ["Dependency versions."](https://pages.github.com/versions/))
+
+		gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+
+4. Edit **_config.yml**
+ 
+		domain: [GitHub ID].github.io
+		url: https://[GitHub ID].github.io
+		baseurl: /REPO-NAME/
+
+## Test Page with Jykell
+
+- Go to the folder of the page
+
+		bundle install
+		bundle add webrick
+		bundle exec jykell serve
+
+- Navigate to [http://localhost:4000](http://localhost:4000).
+
+
+## Reference 
+
+- [Installing Jekyll in MBA M1](https://alexmanrique.com/blog/development/2021/02/05/using-jekyll-in-macbook-air-m1.html)
+
+
+## Default content
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
