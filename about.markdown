@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Reading
 
-* [NCKU kernel](http://wiki.csie.ncku.edu.tw/linux/schedule)
+* [NCKU Linux Kernel Internals](http://wiki.csie.ncku.edu.tw/linux/schedule)
 * [Hacker News](https://news.ycombinator.com)
 * [Light Reading](https://www.lightreading.com)
 * [System Design](https://github.com/kevingo/system-design-primer-zh-tw/blob/master/README-zh-TW.md)
