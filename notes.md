@@ -1,8 +1,14 @@
+---
+layout: page
+title: Tech. Notes
+permalink: /notes
+---
+
 # Tech. Notes
 
 * [Installing Jekyll in MBA M1](https://alexmanrique.com/blog/development/2021/02/05/using-jekyll-in-macbook-air-m1.html)
 
-## My Steps to install Jekyll
+## My steps to install Jekyll
 
 		brew install rbenv
 		rbenv install 3.0.0
@@ -12,6 +18,8 @@
 
 		export PATH="$HOME/.gem/ruby/3.0.0/bin:$PATH"
 		eval "$(rbenv init - zsh)"
+
+* **Commands**
 
 		gem install --user-install rails
 		gem install --user-install ffi
