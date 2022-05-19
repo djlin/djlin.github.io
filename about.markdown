@@ -14,6 +14,8 @@ permalink: /about/
 * [System Design](https://github.com/kevingo/system-design-primer-zh-tw/blob/master/README-zh-TW.md)
 * [Computer Networks: A Systems Approach](https://book.systemsapproach.org)
 * [Beej's Guide](https://beej.us/guide/)
+* [Google Engineering Practices Documentation](https://google.github.io/eng-practices/)
+* [CMU SEI](https://www.sei.cmu.edu)
 
 ## Having Fun
 
@@ -21,3 +23,4 @@ permalink: /about/
 * [Compiler Explorer](https://gcc.godbolt.org)
 * [C++ reference](https://en.cppreference.com/w/)
 * [kernel.org](https://kernel.org)
+* [AWS](https://aws.amazon.com/developer/)

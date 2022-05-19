@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "GitHub and Jekyll"
-date:   2022-02-15 19:34:25 -0600
 categories: jekyll notes
 ---
 
