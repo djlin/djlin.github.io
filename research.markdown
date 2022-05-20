@@ -10,7 +10,7 @@ permalink: /research/
 
 #### 2021
 
-* [Circuits/cutsets duality and theoretical foundation of a structural approach to survivable logical topology mapping in IP-over-WDM optical networks]()
+* [Circuits/cutsets duality and theoretical foundation of a structural approach to survivable logical topology mapping in IP-over-WDM optical networks](papers/OSN21.pdf)
 
 #### 2020
 
