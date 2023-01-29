@@ -29,8 +29,14 @@ github_username:  djlin
 
 # Build settings
 theme: minima
+markdown:       kramdown
+paginate:       10
+paginate_path:  "/posts/page:num/"
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
 google_analytics: G-6BDSGY60TC
 
