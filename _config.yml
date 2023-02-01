@@ -30,8 +30,8 @@ github_username:  djlin
 # Build settings
 theme: minima
 markdown:       kramdown
-paginate:       10
-paginate_path:  "/posts/page:num/"
+paginate:       3
+paginate_path:  "/blog/page:num/"
 
 plugins:
   - jekyll-feed
