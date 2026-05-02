@@ -9,7 +9,11 @@
       "Bash(bundle install *)",
       "Bash(bundle show *)",
       "Bash(cat \"$\\(bundle show minima\\)/_layouts/home.html\")",
-      "Bash(xargs -I {} basename {} .pdf)"
+      "Bash(xargs -I {} basename {} .pdf)",
+      "Bash(bundle --version)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
