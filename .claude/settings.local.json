@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle outdated *)",
+      "Bash(bundle exec *)",
+      "Bash(ruby --version)",
+      "Bash(gem --version)",
+      "Bash(bundler --version)",
+      "Bash(bundle install *)",
+      "Bash(bundle show *)",
+      "Bash(cat \"$\\(bundle show minima\\)/_layouts/home.html\")",
+      "Bash(xargs -I {} basename {} .pdf)"
+    ]
+  }
+}
